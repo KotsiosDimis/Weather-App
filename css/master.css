@@ -1,0 +1,38 @@
+/* Apply styles to the body element */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the body height to fill the viewport */
+    background-color: #f0f0f0; /* Optional: Set background color */
+}
+
+/* Apply styles to the container element */
+.container {
+    max-width: 800px; /* Set maximum width for the container */
+    width: 90%; /* Set width to 90% of the viewport */
+    text-align: center; /* Center align text within the container */
+}
+
+/* Apply styles to the h1 element */
+h1 {
+    font-size: 2.5rem; /* Example font size */
+    margin-bottom: 20px; /* Example margin */
+    margin-top: 0; /* Reset top margin */
+}
+
+/* Apply styles to the weather-data div */
+#weather-data {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center the items horizontally */
+    gap: 20px; /* Add some spacing between items */
+}
+
+/* Apply styles to other elements within the container as needed */
+p {
+    font-size: 1.2rem; /* Example font size */
+    line-height: 1.5; /* Example line height */
+}
